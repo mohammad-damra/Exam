@@ -25,3 +25,17 @@ Q9) When the `submit` button is clicked (from Q6) it should add a new book in th
 Q10) When rendering the book list (from Q7) add a delete button next to each book, that when clicked will delete the corresponding book from the database and the state.
 
 */
+
+
+/*
+CREATE TABLE books (
+    id int NOT NULL AUTO_INCREMENT,
+    title varchar(255),
+    author varchar(255),
+    pages int,
+    publisher varchar(255),
+    published_at date,
+    PRIMARY KEY (id)
+);
+(title , author, pages, publisher, published_at)
+*/
